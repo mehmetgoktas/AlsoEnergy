@@ -1,0 +1,144 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2020-07-10T19:52:54.139Z",
+        "before": [
+          {
+            "result": {
+              "duration": 7757142900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.setUp()"
+            }
+          }
+        ],
+        "line": 4,
+        "name": "Validate the google is up",
+        "description": "",
+        "id": "testing-of-avaliability-of-google;validate-the-google-is-up",
+        "after": [
+          {
+            "result": {
+              "duration": 848520000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "Hooks.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 1304832100,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "navigates to \"https://www.google.com/\" google homepage",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 13
+                }
+              ],
+              "location": "Steps.navigates_to_google_homepage(String)"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 2775264200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "verify that page status code is 200",
+            "match": {
+              "arguments": [
+                {
+                  "val": "200",
+                  "offset": 32
+                }
+              ],
+              "location": "Steps.verify_that_page_status_code_is(int)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 16631200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "verify the current url is \"https://www.google.com/\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"https://www.google.com/\"",
+                  "offset": 26
+                }
+              ],
+              "location": "Steps.verify_the_current_url_is(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9371600,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "verify the current page title is \"Google\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Google\"",
+                  "offset": 33
+                }
+              ],
+              "location": "Steps.verify_the_current_page_title_is(String)"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 108651000,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "verfiy the search button is available",
+            "match": {
+              "location": "Steps.verfiy_the_search_button_is_available()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@test"
+          }
+        ]
+      }
+    ],
+    "name": "Testing of avaliability of google",
+    "description": "",
+    "id": "testing-of-avaliability-of-google",
+    "keyword": "Feature",
+    "uri": "file:src/test/resources/alsoEnergy.feature",
+    "tags": [
+      {
+        "name": "@test",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      }
+    ]
+  }
+]
